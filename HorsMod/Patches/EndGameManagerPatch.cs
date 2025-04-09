@@ -9,6 +9,8 @@ using Il2CppInterop.Runtime.InteropTypes.Arrays;
 
 namespace Hors;
 
+[HarmonyPatch]
+
 public class EndGameManagerPatch
 {
     [HarmonyPatch(typeof(EndGameManager), nameof(EndGameManager.SetEverythingUp))]

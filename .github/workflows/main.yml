@@ -24,4 +24,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: Hors.dll
-          path: Hors/bin/Release/net6.0/Hors.dll
+          path: HorsMod/bin/Release/net6.0/Hors.dll

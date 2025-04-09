@@ -5,6 +5,8 @@ using UnityEngine;
 
 namespace Hors;
 
+[HarmonyPatch]
+
 public class killAnimationPatch
 {
     [HarmonyPatch(typeof(KillOverlay), nameof(KillOverlay.ShowKillAnimation), typeof(NetworkedPlayerInfo), typeof(NetworkedPlayerInfo))]
